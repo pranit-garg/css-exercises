@@ -20,7 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  /* adding padding between modal container and content */
+  padding: 10px;
 }
+
+/* to get header and close button in one line and push close sign to the right edge*/
+.header-plus-close {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* making the header bold and larger */
+.header {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +50,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* added margin between ! icon and rest of content */
+  margin-right: 10px;
 }
 
 .close-button {
@@ -51,6 +70,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 button.continue {
